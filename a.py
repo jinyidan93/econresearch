@@ -12,3 +12,5 @@ else:
 a="<title>hello   </title>"
 import re
 print(re.search(r'<title>([\w\s]+)</title>',a).group(1))
+
+print("wo ai zhu ge")
